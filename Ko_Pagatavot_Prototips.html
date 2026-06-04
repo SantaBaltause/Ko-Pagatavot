@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ko pagatavot? - Startup Prototips</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:#f8fafc;color:#0f172a}
+header{position:sticky;top:0;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);padding:18px 8%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.logo{font-weight:800;font-size:1.4rem;color:#22c55e}
+nav a{text-decoration:none;color:#334155;margin-left:24px}
+.hero{padding:90px 8%;display:flex;align-items:center;gap:60px;flex-wrap:wrap}
+.hero-text{flex:1;min-width:320px}
+.hero-text h1{font-size:3.5rem;line-height:1.1}
+.hero-text p{margin:20px 0;color:#475569;font-size:1.1rem}
+.btn{display:inline-block;padding:14px 24px;border-radius:14px;text-decoration:none;font-weight:700;margin-right:12px}
+.primary{background:#22c55e;color:white}
+.secondary{background:#f97316;color:white}
+.phone{flex:1;min-width:300px;background:white;border-radius:35px;padding:20px;box-shadow:0 20px 50px rgba(0,0,0,.15)}
+.screen{background:#ecfdf5;border-radius:25px;padding:20px}
+.tag{display:inline-block;background:#dcfce7;padding:8px 14px;border-radius:999px;color:#15803d;margin-bottom:15px}
+section{padding:80px 8%}
+h2{text-align:center;font-size:2.3rem;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.card{background:white;padding:28px;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+.premium{background:linear-gradient(135deg,#22c55e,#16a34a);color:white;text-align:center;border-radius:30px;padding:60px}
+footer{background:#0f172a;color:white;text-align:center;padding:40px}
+ul{padding-left:18px}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🍳 Ko pagatavot?</div>
+<nav>
+<a href="#funkcijas">Funkcijas</a>
+<a href="#premium">Premium</a>
+<a href="#kontakti">Kontakti</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-text">
+<div class="tag">AI recepšu asistents</div>
+<h1>Pagatavo gardu maltīti no tā, kas jau ir tavā virtuvē</h1>
+<p>Ievadi sastāvdaļas un saņem personalizētas receptes dažu sekunžu laikā.</p>
+<a class="btn primary" href="#">Lejupielādēt</a>
+<a class="btn secondary" href="#">Demo</a>
+</div>
+
+<div class="phone">
+<div class="screen">
+<h3>Šodien pieejams:</h3>
+<ul>
+<li>🥚 Olas</li>
+<li>🧀 Siers</li>
+<li>🍅 Tomāti</li>
+<li>🍝 Makaroni</li>
+</ul>
+<br>
+<h3>Ieteiktā recepte</h3>
+<p><strong>Krēmīga pasta ar sieru</strong></p>
+<p>⏱ 20 min • ⭐ 4.9</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Kā tas darbojas?</h2>
+<div class="grid">
+<div class="card"><h3>1. Ievadi sastāvdaļas</h3><p>Pievieno produktus, kas ir tavā ledusskapī.</p></div>
+<div class="card"><h3>2. AI analizē</h3><p>Sistēma atrod piemērotākās receptes.</p></div>
+<div class="card"><h3>3. Gatavo</h3><p>Saņem instrukcijas un baudi maltīti.</p></div>
+</div>
+</section>
+
+<section id="funkcijas">
+<h2>Galvenās funkcijas</h2>
+<div class="grid">
+<div class="card">🔍 Recepšu meklēšana pēc sastāvdaļām</div>
+<div class="card">❤️ Personalizēti ieteikumi</div>
+<div class="card">🛒 Gudrs iepirkumu saraksts</div>
+<div class="card">📅 Nedēļas maltīšu plānotājs</div>
+<div class="card">🏆 Sasniegumi un izaicinājumi</div>
+<div class="card">🇱🇻 Lokalizētas Latvijas receptes</div>
+</div>
+</section>
+
+<section id="premium">
+<div class="premium">
+<h2>Premium</h2>
+<p>Neierobežotas receptes, AI personalizācija un bez reklāmām.</p>
+<h1 style="margin:20px 0;">4.99 €/mēn.</h1>
+</div>
+</section>
+
+<section>
+<h2>Biznesa modelis</h2>
+<div class="grid">
+<div class="card"><h3>Partneri</h3><p>Pārtikas veikali, uztura speciālisti, recepšu autori.</p></div>
+<div class="card"><h3>Ieņēmumi</h3><p>Premium abonements, reklāmas un partnerības.</p></div>
+</div>
+</section>
+
+<footer id="kontakti">
+<h3>Ko pagatavot?</h3>
+<p>Universitātes projekta prototips</p>
+<p>info@kopagatavot.lv</p>
+</footer>
+</body>
+</html>
